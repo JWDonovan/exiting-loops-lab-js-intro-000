@@ -6,6 +6,8 @@ function breakOut(array, changeValue, stopValue) {
       break
     }
   }
+
+  return array;
 }
 
 function keepGoing(array, changeValue, skipValue) {
@@ -16,6 +18,8 @@ function keepGoing(array, changeValue, skipValue) {
       continue
     }
   }
+
+  return array;
 }
 
 function findBy(array, findFn) {
